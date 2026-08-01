@@ -1,7 +1,18 @@
 aid: royal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/royal.png
 name: Royal
-description: Royal is a company surfaced as a portfolio company of a16z, paradigm and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Royal is a music-and-crypto company backed by a16z and Paradigm that originally let fans buy tokenized shares of songs (Limited Digital Assets, or LDAs) so they could earn streaming royalties alongside the artists they support. As of mid-2026 the public site at royal.io states the company is "reinventing itself" and is between products, keeping only its legal pages and LDA support live; it publishes no developer portal, documentation, OpenAPI, SDKs, or public API surface at this time. This profile tracks Royal as an API Evangelist network company and will be enriched further if and when a public API or developer program appears.
 url: https://raw.githubusercontent.com/api-evangelist/royal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +23,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Royalties
+- Crypto
+- Web3
+- NFT
+- Fan Engagement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +41,16 @@ maintainers:
 common:
 - type: Website
   url: https://royal.io
+- type: TermsOfService
+  url: https://royal.io/legal/tos.html
+- type: PrivacyPolicy
+  url: https://royal.io/legal/privacy.html
+- type: Support
+  url: https://royal.io/lda-support.html
+- type: DomainSecurity
+  url: security/royal-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
